@@ -36,19 +36,23 @@ nav h3{
   height: 800px;
 }
 
+.header-title{
+  font-size: 60px;
+}
+
 .header-content{
   text-align: center;
   padding-top: 150px;
 }
 
 .header-content h1, p{
-  padding-bottom: 24px;
+  padding-bottom: 34px;
 }
 
 .header-button{
   height: 50px;
   width: 200px;
-  border-radius: 5px;
+  border-radius: 8px;
   color: white;
   background-color: black;
   border: none;
@@ -177,4 +181,77 @@ main{
 
 iframe{
   border-radius: 20px;
+}
+
+/*my current target*/
+
+.container-2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.description {
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 10px;
+  min-width: 250px;
+  max-width: 300px;
+  text-align: left;
+}
+
+.html-card {
+  background-color: #fff1f1;
+}
+
+.css-card {
+  background-color: #f1f5ff;
+}
+
+.js-card {
+  background-color: #fffff1;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.learn-more {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  border: 2px solid #000;
 }
