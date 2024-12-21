@@ -24,12 +24,12 @@
       </h1>
       <p class="header-subtitle">Documenting my progress as I learn to code and pursue a career in web development.<br>
         Follow my journey from coding newbie to aspiring developer.</p>
-      <button class="header-button">Contact With Me</button>
+      <button class="header-button" onclick="scrollToBottom()">Contact With Me</button>
     </div>
   </header>
   <section class="why-web-dev">
-    <div class="container">
-      <div class="header">
+    <div class="container-1">
+      <div class="header-1">
           <h1>Why Web Development??</h1>
           <p>Web development empowers you to build impactful online experiences, reaching a global audience and shaping the digital world.</p>
       </div>
@@ -108,7 +108,85 @@
       </div>
     </div>
   </section>
-  <footer></footer>
-  
+  <section>
+    <div class="container-3">
+      <div class="header-3">
+          <h1>My Next Target</h1>
+          <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+      </div>
+
+      <div class="cards-container-2">
+          <div class="card-2">
+              <div class="icon-container">
+                  <div class="react-icon">
+                      <img src="assets/react.png" alt="">
+                  </div>
+              </div>
+              <div class="card-content">
+                  <h2>ReactJS</h2>
+                  <p>React helps developers create interactive and dynamic web pages that update smoothly and efficiently.</p>
+                  <a href="" class="learn-more">Learn More</a>
+              </div>
+          </div>
+
+          <div class="card-2">
+              <div class="icon-container">
+                  <div class="node-icon">
+                      <img src="assets/nodejs.png" alt="">
+                  </div>
+              </div>
+              <div class="card-content">
+                  <h2>NodeJs</h2>
+                  <p>Node.js lets you use JavaScript on the server-side, allowing you to build dynamic web applications and APIs.</p>
+                  <a href="" class="learn-more">Learn More</a>
+              </div>
+          </div>
+
+          <div class="card-2">
+              <div class="icon-container">
+                  <div class="mongo-icon">
+                      <img src="assets/mongodb.png" alt="">
+                  </div>
+              </div>
+              <div class="card-content">
+                  <h2>MongoDB</h2>
+                  <p>MongoDB is a way to store data for websites and applications. It's flexible and easy to use, especially for large amounts of information.</p>
+                  <a href="" class="learn-more">Learn More</a>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <div class="support">
+    <h1>I need Support</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <form class="feedback-form">
+        <input type="text" class="feedback-input" placeholder="Suggest me any feedback for me">
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+</div>
+
+<footer id="page-bottom">
+    <div class="author">
+        An Open Commitment by AWlad Hossain
+    </div>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/" class="social-icon">
+            <img src="assets/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://github.com/" class="social-icon">
+            <img src="assets/github.png" alt="GitHub">
+        </a>
+        <a href="https://linkedin.com/" class="social-icon">
+            <img src="assets/linkedin-icon 1.png" alt="LinkedIn">
+        </a>
+    </div>
+</footer>
+
+<script>
+  function scrollToBottom() {
+      document.getElementById('page-bottom').scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
 </body>
 </html>
